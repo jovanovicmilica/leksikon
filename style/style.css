@@ -1,0 +1,455 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    line-height: 2;
+    font-family: 'Kaushan Script', cursive;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 30px;
+    background-color: rgba(220,97,143,0.5);
+    /*position: fixed;
+    z-index: 999;*/
+}
+#logo{
+    width: 20%;
+}
+#logo a{
+    font-size: 25px;
+    text-decoration: none;
+    font-family: 'Kaushan Script', cursive;
+    color: #000;
+}
+nav{
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: #000;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px;
+}
+main{
+    width: 100%;
+    padding: 20px 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.forma{
+    width: 45%;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.forma p{
+    /*text-align: center;*/
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 5px;
+}
+.forma form{
+    text-align: center;
+}
+.forma input,.forma button,.potpisiSe,.pitanje2 input,#popuni,.pitanje input,.pogledaj{
+    width: 70%;
+    border: 0px;
+    /*border-bottom: 1px solid pink;
+    border-radius: 5px;*/
+    border-bottom: 1px solid #000;
+    height: 25px;
+    padding: 10px;
+    text-align: center;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 18px;
+}
+.pogl{
+    width: 20%;
+}
+.forma button,.potpisiSe,#popuni,.pogledaj{
+    background-color: rgba(220,97,143,0.5);
+    height: 40px;
+    padding: 5px;
+    border-bottom: 0px;
+}
+.potpisiSe{
+    background-color: pink;
+}
+h2{
+    font-family: 'Kaushan Script', cursive;
+}
+.forma h2{
+    margin: 20px;
+}
+.forma li{
+    list-style-type: none;
+}
+.forma p[id]{
+    color: red;
+}
+
+.forma span{
+    font-family: 'Kaushan Script', cursive;
+}
+.potpisiSe{
+    width: auto;
+}
+#popuni{
+    width: 20%;
+}
+.leksikon{
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+.drzacSLika{
+    margin: 0px auto;
+    width: 70%;
+}
+.drzacSLika img{
+    width: 100%;
+}
+.devojcica{
+    border:2px solid pink;
+}
+.decak,textarea{
+    border:2px solid paleturquoise;
+}
+#popuni{
+    border-bottom: 0px;
+}
+.devojcicaButton{
+    background-color: pink;
+}
+
+.decakButton,.devojcicaButton{
+    padding: 5px;
+    border: 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.leksikon p{
+    font-size: 25px;
+}
+.leksikon a{
+    text-decoration: none;
+    color: #000;
+}
+#pitanja{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.pitanje{
+    margin: 10px;
+}
+.pitanje input{
+    width: 80%;
+}
+input[type=radio]{
+    width: 20px;
+}
+.pitanje input[readonly=true]{
+    border-bottom: 1px solid #868686;
+}
+.sivTekst{
+    color: #868686;
+}
+#str{
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#drzacSvih{
+    width: 100%;
+    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.stranicanje{
+    padding:0px 12px;
+    background-color:  rgba(220,97,143,1);
+    border-radius: 5px;
+    margin-left: 10px;
+    color: #000;
+    text-decoration: none;
+}
+.strana li{
+    border-bottom: 1px solid #000;
+}
+.strana,ol{
+    margin: 10px;
+}
+.strana{
+    border: 1px solid #000;
+    padding: 17px;
+    width: 45%;
+    border-radius: 5px;
+}
+.leksikon .loz{
+    font-size: 20px;
+}
+.pitanje2 input{
+    margin: 0px 10px;
+}
+#anketa button{
+    width: 40%;
+    border-radius: 5px;
+    background-color: rgba(220,97,143,0.5);
+}
+.naslov{
+    width: 100%;
+    text-align: center;
+}
+.uputstvo{
+    padding: 30px;
+    width: 100%;
+    text-align: center;
+}
+.uputstvo ul{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.uputstvo ul li{
+    width: 20%;
+    margin: 10px;
+    padding: 0px 20px;
+    height: 200px;
+    list-style-type: none;
+    box-shadow: 0px 0px 5px #dc618f;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#anketa{
+    width: 100%;
+    text-align: center;
+    margin: 20px 0px;
+}
+.odgovor{
+    width: 100%;
+}
+#anketa button{
+    width: 15%;
+    margin: 5px;
+}
+#anketa input[type=radio]{
+    width: 20px;
+    height: 15px;
+    margin-left: 10px;
+}
+footer{
+    width: 100%;
+    background-color: rgba(220,97,143,0.5);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+#mreze ul{
+    display: flex;
+    align-content: center;
+}
+#mreze ul li{
+    list-style-type: none;
+    margin: 0px 10px;
+}
+#mreze ul li a{
+    font-size: 30px;
+    color: rgb(155, 0, 57);
+}
+footer a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(155, 0, 57);
+    margin-left: 15px;
+}
+#autor{
+    text-align: center;
+}
+#slikaja{
+    width: 70%;
+    margin: 0px auto;
+}
+#slikaja img{
+    width: 100%;
+}
+.pitanje{
+    width: 45%;
+    text-align: right;
+}
+.pitanje input[type=text],.pitanje input[type=date]{
+    width: 70%;
+}
+.decakButton{
+    background-color: paleturquoise;
+}
+button{
+    border-radius: 5px;
+}
+.adm{
+    padding: 5px;
+    width: 45%;
+    border: 1px solid rgba(220,97,143,1);
+    border-radius: 5px;
+    margin: 10px;
+    text-align: center;
+}
+.adm .forma{
+    width: 80%;
+}
+.adm .forma button{
+    width: 40%;
+}
+#delete{
+    width: 100%;
+}
+table{
+    width: 100%;
+    text-align: left;
+}
+td{
+    width: 20%;
+}
+td,th{
+    padding: 5px;
+}
+table{
+    font-size: 20px;
+}
+table tbody tr:nth-child(odd){
+    background-color: rgba(185, 173, 178, 0.2);
+}
+table tbody tr:hover{
+    background-color: rgba(202, 187, 192,0.7);
+}
+#leksikonKor{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.prikaz5{
+    width: 40%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 5px;
+}
+.prikaz5 button{
+    margin: 0px auto;
+}
+.adm .forma input[type=file]{
+    height: auto;
+    margin: 5px;
+    border: 0px;
+}
+.adm .forma button{
+    width: 50%;
+}
+.adm p,#delete p{
+    font-size: 25px;
+    text-align: center;
+}
+#delete{
+    margin-top: 10px;
+}
+.sel{
+    border-radius: 5px;
+    width: 70%;
+    font-size: 20px;
+}
+textarea{
+    width: 70%;
+    border: 1px solid #000;
+    border-radius: 5px;
+    resize: vertical;
+}
+#drzacP{
+    width: 100%;
+}
+#drzacSLika{
+    width: 80%;
+    margin: 0px auto;
+}
+#drzacSLika img{
+    width: 100%;
+    border-radius: 5px;
+}
+#errorSlika{
+    width: 100%;
+    height: 500px;
+    background-image: url("../img/slika4041.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#erorTekst{
+    width: 50%;
+    margin: 50px auto;
+}
+.adm5{
+    width: 100%;
+}
+@media screen and (max-width: 890px){
+    .strana{
+        width: 100%;
+    }
+    nav ul{
+        flex-direction: column;
+    }
+    .leksikon{
+        width: 45%;
+    }
+    .adm{
+        width: 100%;
+    }
+    .uputstvo ul li{
+        width: 40%;
+        height: 250px;
+    }
+    #anketa button{
+        width: 100%;
+    }
+    .forma input,textarea{
+        width: 100%;
+    }
+    .pitanje{
+        width: 100%;
+    }
+    .pitanje input[type=text],.pitanje input[type=date]{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 515px){
+    .leksikon{
+        width: 90%;
+    }
+    .uputstvo ul li{
+        width: 90%;
+    }
+}
