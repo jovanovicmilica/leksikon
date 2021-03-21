@@ -1,3 +1,4 @@
+<?php?>
 <div id="autor">
     <div id="slikaja">
     <img src="img/slikaja.jpg" alt="Ja">
