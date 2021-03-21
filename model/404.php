@@ -1,4 +1,4 @@
-
+<?php?>
 <div id="errorSlika">
 <div id="erorTekst">
 <h1>404</h1>
