@@ -1,3 +1,4 @@
+<?php?>
 <div class="forma">
     <form>
         <input type="text" name="username" id="username">
